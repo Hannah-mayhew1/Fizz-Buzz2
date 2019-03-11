@@ -12,52 +12,37 @@ public class Main {
         Scanner maxNumberInput = new Scanner(System.in);
         int maxNumber = maxNumberInput.nextInt();
 
+        for (int n = 1; n <= maxNumber; n++) {
 
-        for (int n = 1; n <= maxNumber ; n++) {
-
-            boolean Fizz = false;
-            boolean Buzz = false;
-            boolean Bang = false;
-            boolean Bong = false;
-            boolean Fezz = false;
-            boolean Reverse = false;
-
-            List<String> FB = new ArrayList<>();
+            List<String> fb = new ArrayList<>();
 
             if (n % 3 == 0) {
-                Fizz = true;
-                FB.add("Fizz");
+                fb.add("Fizz");
             }
             if (n % 13 == 0) {
-                Fezz = true;
-                FB.add("Fezz");
+                fb.add("Fezz");
             }
             if (n % 5 == 0) {
-                Buzz = true;
-                FB.add("Buzz");
+                fb.add("Buzz");
             }
             if (n % 7 == 0) {
-                Bang = true;
-                FB.add("Bang");
+                fb.add("Bang");
             }
             if (n % 11 == 0) {
-                Bong = true;
-                FB.clear();
-                if (Fezz) {
-                    FB.add("Fezz");
+                fb.clear();
+                if (n % 13 == 0) {
+                    fb.add("Fezz");
                 }
-                FB.add("Bong");
+                fb.add("Bong");
             }
             if (n % 17 == 0) {
-                Reverse = true;
-                Collections.reverse(FB);
+                Collections.reverse(fb);
             }
 
-            if (FB.size() > 0) {
-                String fbString = String.join("", FB);
+            if (fb.size() > 0) {
+                String fbString = String.join("", fb);
                 System.out.println(fbString);
-            }
-            else {
+            } else {
                 System.out.println(n);
             }
         }
