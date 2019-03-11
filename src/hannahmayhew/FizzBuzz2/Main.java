@@ -1,9 +1,6 @@
 package hannahmayhew.FizzBuzz2;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -16,26 +13,26 @@ public class Main {
 
             List<String> fb = new ArrayList<>();
 
-            if (n % 3 == 0) {
+            if (Arrays.asList(args).contains("3") && n % 3 == 0) {
                 fb.add("Fizz");
             }
-            if (n % 13 == 0) {
+            if (Arrays.asList(args).contains("13") && n % 13 == 0) {
                 fb.add("Fezz");
             }
-            if (n % 5 == 0) {
+            if (Arrays.asList(args).contains("5") && n % 5 == 0) {
                 fb.add("Buzz");
             }
-            if (n % 7 == 0) {
+            if (Arrays.asList(args).contains("7") && n % 7 == 0) {
                 fb.add("Bang");
             }
-            if (n % 11 == 0) {
+            if (Arrays.asList(args).contains("11") && n % 11 == 0) {
                 fb.clear();
                 if (n % 13 == 0) {
                     fb.add("Fezz");
                 }
                 fb.add("Bong");
             }
-            if (n % 17 == 0) {
+            if (Arrays.asList(args).contains("17") && n % 17 == 0) {
                 Collections.reverse(fb);
             }
 

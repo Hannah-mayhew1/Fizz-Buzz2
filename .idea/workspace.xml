@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f033e7f-106c-4a31-b4b0-64e778e78b90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fizz-Buzz2/hannahmayhew/FizzBuzz2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fizz-Buzz2/hannahmayhew/FizzBuzz2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hannahmayhew/FizzBuzz2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hannahmayhew/FizzBuzz2/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hannahmayhew/FizzBuzz2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            <state relative-caret-position="271">
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="43" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hannahmayhew/FizzBuzz2/FizzBuzzBangStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,6 +38,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -34,13 +52,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/hannahmayhew/FizzBuzz2/Main.java" />
+        <option value="$PROJECT_DIR$/src/hannahmayhew/FizzBuzz2/FizzBuzzBangStream.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="710" />
+    <option name="x" value="724" />
     <option name="y" value="45" />
-    <option name="width" value="711" />
+    <option name="width" value="697" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectView">
@@ -48,7 +67,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Fizz-Buzz2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fizz-Buzz2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fizz-Buzz2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fizz-Buzz2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fizz-Buzz2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fizz-Buzz2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FizzBuzz2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -74,7 +114,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="hannahmayhew.FizzBuzz2.Main" />
       <module name="Fizz-Buzz2" />
-      <option name="PROGRAM_PARAMETERS" value="fizz buzz bang" />
+      <option name="PROGRAM_PARAMETERS" value="3 5 7" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -97,21 +137,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552299193202</updated>
-      <workItem from="1552299194459" duration="9356000" />
+      <workItem from="1552299194459" duration="15694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9356000" />
+    <option name="totallyTimeSpent" value="15694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="710" y="45" width="711" height="823" extended-state="0" />
+    <frame x="724" y="45" width="697" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31240657" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13587786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -144,8 +184,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hannahmayhew/FizzBuzz2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="271">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hannahmayhew/FizzBuzz2/FizzBuzzBangStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
